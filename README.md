@@ -1,7 +1,7 @@
 # Efficient Implementations of Echo State Network Cross-Validation
 Echo State Networks (ESNs) as a prime example of Reservoir Computing (RC) models are known for their fast and precise one-shot learning of time series. But they often need good hyper-parameter tuning for the best performance. For this good validation is key, but usually a single validation split is used. 
 
-This repository contains the code used for the experiments in [add reference, years, authors]
+This repository contains the code used for the experiments in [1].
 
 ## 1. Summary of best complexities of the different CV methods
 
@@ -65,6 +65,9 @@ A notebook ([ESN_speed_experiment.ipynb](/ESN_speed_experiment.ipynb)) is availa
 
 <p align="center"><img align="center" src="https://i.imgur.com/A1Iyro8.png"></p>
 
+## References
+
+[1] Lukoševičius, Mantas, and Arnas Uselis. "Efficient implementations of echo state network cross-validation". 2020. [[arxiv]](https://arxiv.org/abs/2006.11282)
 
 ## Contact
 
